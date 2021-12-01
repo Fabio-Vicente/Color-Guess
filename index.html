@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,14 +21,16 @@
             <div class="ball"></div>
             <div class="ball"></div>
         </section>
-        <section>
-            <p>Score: <span id="score">0</span></p>
-            <p>High Score: <span id="high-score">0</span></p>
+        <section id="info">
             <p id="answer">Escolha uma cor</p>
-        </section>
-        <section>
-            <button id="reset-game"></button>
-        </section>
+            <section>
+                <button id="reset-game">Reiniciar</button>
+            </section>
+            <div>
+                <p>Score:<span id="score">0</span></p>
+                <p>High Score:<span id="high-score">0</span></p>
+            </div>
+        </section>    
     </main>
     <script src="script.js"></script>
 </body>

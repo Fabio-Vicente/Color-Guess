@@ -1,5 +1,46 @@
+body {
+  text-align: center;
+}
+
+header p {
+  font-family: Courier New, Courier, monospace;
+  font-size: large;
+  text-decoration: underline wavy;
+}
+
+button {
+  font-size: 18px;
+  margin: 6px 0 12px;
+}
+
 .ball {
-  height: 20px;
-  width: 20px;
   border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  margin: 10px 12px;
+}
+
+#tries {
+  max-width: 45%;
+  margin: 0 auto;
+}
+
+#info > p {
+  font-size: 24px;
+}
+
+#info div p {
+  background-color: gray;
+  color: rgb(17, 42, 70);
+  font-size: x-large;
+  border: 2px solid;
+  width: 180px;
+  display: inline-block;
+}
+
+#info div span {
+  background-color: white;
+  display: block;
+  max-width: 100%;
 }
